@@ -1,4 +1,10 @@
 - name: Testing
   hosts: all
   tasks:
-    - ansible.builtin.debug: msg="hello world"
+    - name: Log a message
+      ansible.builtin.debug: msg="hello world"
+
+- name: Enable SELinux
+  hosts: all
+  roles:
+    - role: selinux

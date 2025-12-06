@@ -1,0 +1,7 @@
+- name: Install required packages
+  become: true
+  ansible.builtin.package: 
+    name:
+      - python3-selinux
+      - selinux-policy-default 
+    state: present
