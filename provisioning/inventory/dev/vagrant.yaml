@@ -1,0 +1,7 @@
+ungrouped:
+  hosts:
+    localhost:
+      ansible_host: host.docker.internal
+      ansible_user: vagrant
+      ansible_port: 2222
+      ansible_ssh_private_key_file: /run/secrets/private_key
