@@ -1,6 +1,6 @@
 ungrouped:
   hosts:
-    localhost:
+    vagrant:
       ansible_host: host.docker.internal
       ansible_user: vagrant
       ansible_port: 2222
